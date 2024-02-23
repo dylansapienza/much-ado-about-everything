@@ -1,0 +1,33 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Much Ado About Everything
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
+
+params:
+  homeInfoParams:
+    Title: 👋 Welcome to Much Ado About Everything 
+    Content: Hi, this is Dylan. This is a blog primarily for myself. I use it to document my thoughts and learning journey. Here you can expect to find posts about artifical intelligence, programming, philosophy and ethics.
+
+  # ShowBreadCrumbs: true
+  ShowReadingTime: true
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/dylansapienza/"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/dylansapienza/"

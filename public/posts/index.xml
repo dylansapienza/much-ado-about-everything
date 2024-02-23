@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Much Ado About Everything</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Much Ado About Everything</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 17:22:44 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hi</title>
+      <link>http://localhost:1313/posts/hi/</link>
+      <pubDate>Fri, 23 Feb 2024 17:22:44 -0500</pubDate>
+      <guid>http://localhost:1313/posts/hi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Patterns &amp; Theories</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Fri, 23 Feb 2024 16:03:05 -0500</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>The world is made of events and like any assortment of data points there can be patterns found. With these patterns we tend to find the story which underlies them, which makes sense of them. These patterns often help us predict the future, solve problems, and are sometimes just pleasing see. What can a deep dive on the concept of patterns reveal about their nature?
+What is the form of a pattern?</description>
+    </item>
+  </channel>
+</rss>
