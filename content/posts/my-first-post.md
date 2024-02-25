@@ -6,23 +6,23 @@ date = 2024-02-23T16:03:05-05:00
 
 The world is made of events and like any assortment of data points there can be patterns found. With these patterns we tend to find the story which underlies them, which makes sense of them. These patterns often help us predict the future, solve problems, and are sometimes just pleasing see. What can a deep dive on the concept of patterns reveal about their nature?
 
-1. What is the form of a pattern?
+## 1. What is the form of a pattern?
 
 When we use the word pattern what to which are we referring? To break this down let’s consider quite possibly the simplest pattern, number sequences.
 
-1. (2, 4, 6, 8, …)
+> ### (2, 4, 6, 8, …)
 
 The pattern in the numbers above is obvious. For each consecutive number we add two. What makes it a pattern is way in which it repeats. We are following a simple mathematical computation to find the next number. This simple computation also is deterministic, in that it does not depend on any external randomness. The deterministic character of patterns allows us to predict with certainty any value in any position. Suppose I wanted to know what the 20th value of P1 would be. We find this question trivial. There are two ways of finding out the answer.
 
-Continue The Pattern
+1. Continue The Pattern
 
-Find and Use the General Function
+2. Find and Use the General Function
 
 Continuing the pattern is obvious, we proceed by adding 2 to the previous number until we get to the 20th value. Finding the general function is still easy but provides more theoretical richness. For each number we take the previous number and add 2. A general function which can explain the pattern is F1: y = 2x where x is the position of the number you’d want to find. Now with this general function we can find the 20th value without following the labor of counting each number prior. 2 \* 20(th value) = 40. Aside from the mathematical power granted by this less computationally intensive process, we can get an insight into what likely governs the creation of these numbers.
 
-Sidenote: Occam’s Razor and Parsimony
+> Sidenote: Occam’s Razor and Parsimony
 
-Suppose someone tried to come up with the general function for P1 and they came up with F2: y = 4x - 2x. This equation also maps the pattern in P1 which reveals that multiple functions could exist, however mathematics allows us to simple reduce equations such that we can see their really equivalent. This works well in the logic of mathematics, but reduction and other plausible explanations becomes much more complicated with other patterns.
+`Suppose someone tried to come up with the general function for P1 and they came up with F2: y = 4x - 2x. This equation also maps the pattern in P1 which reveals that multiple functions could exist, however mathematics allows us to simple reduce equations such that we can see their really equivalent. This works well in the logic of mathematics, but reduction and other plausible explanations becomes much more complicated with other patterns.`
 
 2. Patterns in Nature
 
