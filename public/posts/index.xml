@@ -6,14 +6,17 @@
     <description>Recent content in Posts on Much Ado About Everything</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Feb 2024 17:22:44 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 01 Apr 2024 17:35:49 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hi</title>
-      <link>http://localhost:1313/posts/hi/</link>
-      <pubDate>Fri, 23 Feb 2024 17:22:44 -0500</pubDate>
-      <guid>http://localhost:1313/posts/hi/</guid>
-      <description></description>
+      <title>The Correctness Trap: How Overreliance on Systems Can Mislead From Truth</title>
+      <link>http://localhost:1313/posts/correctness-truth/</link>
+      <pubDate>Mon, 01 Apr 2024 17:35:49 -0400</pubDate>
+      <guid>http://localhost:1313/posts/correctness-truth/</guid>
+      <description>Introduction What is the difference between something correct and something true? Is correctness the same as truthfulness? In other words, are all instances of correctness identical with truthfulness?
+P1: Correct-Truth Alignment
+For All X, where X is correct, X must also be true
+At first glance, it seems like they must be. For example, consider a math test. On the test, if you solve an equation, you will be marked as correct.</description>
     </item>
     <item>
       <title>Patterns &amp; Theories</title>
@@ -21,7 +24,7 @@
       <pubDate>Fri, 23 Feb 2024 16:03:05 -0500</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>The world is made of events and like any assortment of data points there can be patterns found. With these patterns we tend to find the story which underlies them, which makes sense of them. These patterns often help us predict the future, solve problems, and are sometimes just pleasing see. What can a deep dive on the concept of patterns reveal about their nature?
-What is the form of a pattern?</description>
+1. What is the form of a pattern?</description>
     </item>
   </channel>
 </rss>
