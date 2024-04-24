@@ -10,17 +10,17 @@ Large Language Models like ChatGPT, Claude and Google Bard share a common person
 
 Let's prompt two AI chat applications to ask who they are. You'll see we get surprisingly similar responses.
 
-> ![ChatGPT Persona](/llm-persona-assets/ai-personas/chatgpt.png)  
+> ![ChatGPT Persona](/much-ado-about-everything/llm-persona-assets/ai-personas/chatgpt.png)  
 > _ChatGPT 3.5's purpose is to assist with a wide range of tasks_
 >
-> ![Claude Persona](/llm-persona-assets/ai-personas/claude.png)  
+> ![Claude Persona](/much-ado-about-everything/llm-persona-assets/ai-personas/claude.png)  
 >  _Anthropic Claude is an assistant that is helpful harmless and honest_
 
 Something to note is that these Web Applications, both ChatGPT and Claude, act as application wrappers around the actual language models (GPT-3.5, Claude 3 Opus). The application use case here is explictly defined to inform the model that it should act as a helpful AI chat assistant. Suppose we wanted to attach a different persona? How can we access the underlying model?
 
 To access the underlying model, we can invoke the Developer API. The API provides us, at a cost, direct access to the AI model allowing us greater customization for many AI use cases.
 
-> ![GPT-3.5 Persona](/llm-persona-assets/ai-personas/gpt35-api.png)  
+> ![GPT-3.5 Persona](/much-ado-about-everything/llm-persona-assets/ai-personas/gpt35-api.png)  
 > _GPT 3.5 API responds without the ChatGPT persona_
 
 The GPT 3.5 base model still contains the identity to assist users with a wide range of tasks. We see, however, that it no longer calls itself ChatGPT. It also is slightly less friendly and more matter-of-fact. This observation brings us to the first and most common way of changing a model persona: The System Message Prompt.
@@ -39,7 +39,7 @@ AI: Arr, the first president of the United States be George Washington, matey!
 
 We've steered the model to act like a pirate, and so it does!
 
-> ![System Message](/llm-persona-assets/ai-orchestration/system-message.png)  
+> ![System Message](/much-ado-about-everything/llm-persona-assets/ai-orchestration/system-message.png)  
 > _The System Message is passed in at runtime to the model_
 
 On ChatGPT, the System Message is what informs the model that it is 'ChatGPT' and to be a helpful assistant. The System Message is hidden from the user so we can't know for certain what it is. For AI Tech Companies, System Messages can be viewed as propritary trade secrets since they differentiate their AI Chatbot product from a commonly available model. For example, a service like Grammarly may use a public LLM, like GPT-4, but with a well-crafted System Message that makes the LLM perform higher quality document editing and proof reading. Then they can sell this modified AI model as a service to users at a price premium.
@@ -56,7 +56,7 @@ Current date: 2024-04-03."
 
 To verify this, let's take this prompt and add it to the base model we have direct access to in the API.
 
-> ![ChatGPT in API](/llm-persona-assets/ai-personas/chatgpt-api.png)  
+> ![ChatGPT in API](/much-ado-about-everything/llm-persona-assets/ai-personas/chatgpt-api.png)  
 > _We recreated the ChatGPT persona!_
 
 This demonstrates that the base model gets ~part~ of its persona in these chat applications from a System Message.
@@ -72,21 +72,21 @@ In a Chess Playing task, the reward metric is defined as how successful the AI m
 
 The problem with Language Models is that the reward metric isn't as easily defined. In Chess we could clearly grade the quality of the model based on if it was winning. With Conversation in Natural Language, there is no clear quantiative metric to track quality. [^] This is in contrast to the model's pre-training phase. In pre-training the model's task and reward was if it could correctly predict the next word. That task is great at making the model a document auto completer, but it doesn't make it good at conversation. For example, look at this raw version of the GPT model. It has no concept of conversation. When we ask a question it fails to understand our human intent.
 
-> ![GPT 3 No RLHF](/llm-persona-assets/rlhf/norlhf//gpt3-norlhf.png)  
+> ![GPT 3 No RLHF](/much-ado-about-everything/llm-persona-assets/rlhf/norlhf//gpt3-norlhf.png)  
 > _GPT-3 without RLHF fails to converse with user_
 
 This uneditied model just does the job it was pre-trained to do, accurately complete documents. It doesn't behave at all like ChatGPT and has no persona. Let's see what happens if we ask about it's persona.
 
-> ![GPT 3 No Persona](/llm-persona-assets/rlhf/norlhf/gpt3-whoareyou.png)  
+> ![GPT 3 No Persona](/much-ado-about-everything/llm-persona-assets/rlhf/norlhf/gpt3-whoareyou.png)  
 > _GPT without RLHF doesn't seem to understand the question_
 
 Again raw GPT-3 fails to answer the question and just continues an auto-complete of the user prompt.
 
 We can use simple prompt engineering to get the model to actually try and answer our question. We do this by setting up a question, answer document for it to complete.
 
-> ![GPT3 Sarah](/llm-persona-assets/rlhf/norlhf/gpt3-sarah.png)  
-> ![GPT3 Kiersten](/llm-persona-assets/rlhf/norlhf/gpt3-kiersten.png)  
-> ![GPT3 Mike](/llm-persona-assets/rlhf/norlhf/gpt3-mike.png)  
+> ![GPT3 Sarah](/much-ado-about-everything/llm-persona-assets/rlhf/norlhf/gpt3-sarah.png)  
+> ![GPT3 Kiersten](/much-ado-about-everything/llm-persona-assets/rlhf/norlhf/gpt3-kiersten.png)  
+> ![GPT3 Mike](/much-ado-about-everything/llm-persona-assets/rlhf/norlhf/gpt3-mike.png)  
 > _GPT 3 randomly generates a persona with asked_
 
 GPT-3 completely hallucinates a persona. This version of the application seems to not be as helpful. It would be great to complete a partially completed essay, but it seems a little wonky for other cases. We also see it is displaying bizzare behavior in some of these completions. So how did OpenAI get their model to behave so wildly differently? To go from expert document completer to Friendly Conversational AI.
