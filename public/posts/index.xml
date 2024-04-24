@@ -6,16 +6,26 @@
     <description>Recent content in Posts on Much Ado About Everything</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Apr 2024 17:35:49 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 17:35:49 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Large Language Models and The Utility of Personas</title>
+      <link>http://localhost:1313/posts/llm-personas/llm-personas/</link>
+      <pubDate>Tue, 23 Apr 2024 17:35:49 -0400</pubDate>
+      <guid>http://localhost:1313/posts/llm-personas/llm-personas/</guid>
+      <description>Some Background Large Language Models like ChatGPT, Claude and Google Bard share a common persona, that of an AI Assistant. They all act as friendly, helpful, sensitive, human aligned chatbots.
+Let&amp;rsquo;s prompt two AI chat applications to ask who they are. You&amp;rsquo;ll see we get surprisingly similar responses.
+ChatGPT 3.5&amp;rsquo;s purpose is to assist with a wide range of tasks
+Anthropic Claude is an assistant that is helpful harmless and honest</description>
+    </item>
     <item>
       <title>The Correctness Trap: How Overreliance on Systems Can Mislead From Truth</title>
       <link>http://localhost:1313/posts/correctness-truth/</link>
       <pubDate>Mon, 01 Apr 2024 17:35:49 -0400</pubDate>
       <guid>http://localhost:1313/posts/correctness-truth/</guid>
-      <description>Introduction What is the difference between something correct and something true? Is correctness the same as truthfulness? In other words, are all instances of correctness identical with truthfulness?
-P1: Correct-Truth Alignment
-For All X, where X is correct, X must also be true
+      <description>Correct vs. True? What is the difference between something correct and something true? Is correctness the same as truthfulness? In other words, are all instances of correctness identical with truthfulness?
+Correctness-Truth Alignment
+For a Proposition P, where P is correct, P must also be true
 At first glance, it seems like they must be. For example, consider a math test. On the test, if you solve an equation, you will be marked as correct.</description>
     </item>
     <item>
