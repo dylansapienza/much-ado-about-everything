@@ -6,8 +6,22 @@
     <description>Recent content on Much Ado About Everything</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Apr 2024 17:35:49 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 21:48:13 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You Know It When You See It: Knowing Without Knowing</title>
+      <link>http://localhost:1313/posts/youknowitwhenyouseeit/youknowitwhenyouseeit/</link>
+      <pubDate>Wed, 24 Jul 2024 21:48:13 -0400</pubDate>
+      <guid>http://localhost:1313/posts/youknowitwhenyouseeit/youknowitwhenyouseeit/</guid>
+      <description>An Example (Recall): You are at a bar with some friends. You are talking about movies and you&amp;rsquo;re trying to remember that one movie from the 1960s about a court case. You feel like you really know it, but you just can&amp;rsquo;t find it in your head. You are also struggling to recall characters and other ways to signal to others what movie you are seaching for. You snap your fingers, look up the the ceiling, let out some &amp;ldquo;umms and ahhs&amp;rdquo; as you feel yourself getting frustrated.</description>
+    </item>
+    <item>
+      <title>What is Injury?</title>
+      <link>http://localhost:1313/posts/injury/injury/</link>
+      <pubDate>Wed, 01 May 2024 09:29:26 -0400</pubDate>
+      <guid>http://localhost:1313/posts/injury/injury/</guid>
+      <description>What is Injury? </description>
+    </item>
     <item>
       <title>Large Language Models and The Utility of Personas</title>
       <link>http://localhost:1313/posts/llm-personas/llm-personas/</link>

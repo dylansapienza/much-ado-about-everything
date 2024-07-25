@@ -127,17 +127,17 @@ Anthropic Claude is an assistant that is helpful harmless and honest">
 <p>Large Language Models like ChatGPT, Claude and Google Bard share a common persona, that of an AI Assistant. They all act as friendly, helpful, sensitive, human aligned chatbots.</p>
 <p>Let&rsquo;s prompt two AI chat applications to ask who they are. You&rsquo;ll see we get surprisingly similar responses.</p>
 <blockquote>
-<p><img loading="lazy" src="/llm-persona-assets/ai-personas/chatgpt.png" alt="ChatGPT Persona"  />
+<p><img loading="lazy" src="/much-ado-about-everything/llm-persona-assets/ai-personas/chatgpt.png" alt="ChatGPT Persona"  />
 <br>
 <em>ChatGPT 3.5&rsquo;s purpose is to assist with a wide range of tasks</em></p>
-<p><img loading="lazy" src="/llm-persona-assets/ai-personas/claude.png" alt="Claude Persona"  />
+<p><img loading="lazy" src="/much-ado-about-everything/llm-persona-assets/ai-personas/claude.png" alt="Claude Persona"  />
 <br>
 <em>Anthropic Claude is an assistant that is helpful harmless and honest</em></p>
 </blockquote>
 <p>Something to note is that these Web Applications, both ChatGPT and Claude, act as application wrappers around the actual language models (GPT-3.5, Claude 3 Opus). The application use case here is explictly defined to inform the model that it should act as a helpful AI chat assistant. Suppose we wanted to attach a different persona? How can we access the underlying model?</p>
 <p>To access the underlying model, we can invoke the Developer API. The API provides us, at a cost, direct access to the AI model allowing us greater customization for many AI use cases.</p>
 <blockquote>
-<p><img loading="lazy" src="/llm-persona-assets/ai-personas/gpt35-api.png" alt="GPT-3.5 Persona"  />
+<p><img loading="lazy" src="/much-ado-about-everything/llm-persona-assets/ai-personas/gpt35-api.png" alt="GPT-3.5 Persona"  />
 <br>
 <em>GPT 3.5 API responds without the ChatGPT persona</em></p>
 </blockquote>
@@ -151,7 +151,7 @@ Human: Who was the First President of The United States?
 AI: Arr, the first president of the United States be George Washington, matey!
 </code></pre><p>We&rsquo;ve steered the model to act like a pirate, and so it does!</p>
 <blockquote>
-<p><img loading="lazy" src="/llm-persona-assets/ai-orchestration/system-message.png" alt="System Message"  />
+<p><img loading="lazy" src="/much-ado-about-everything/llm-persona-assets/ai-orchestration/system-message.png" alt="System Message"  />
 <br>
 <em>The System Message is passed in at runtime to the model</em></p>
 </blockquote>
@@ -164,7 +164,7 @@ Knowledge cutoff: 2022-01.
 Current date: 2024-04-03.&#34;
 </code></pre><p>To verify this, let&rsquo;s take this prompt and add it to the base model we have direct access to in the API.</p>
 <blockquote>
-<p><img loading="lazy" src="/llm-persona-assets/ai-personas/chatgpt-api.png" alt="ChatGPT in API"  />
+<p><img loading="lazy" src="/much-ado-about-everything/llm-persona-assets/ai-personas/chatgpt-api.png" alt="ChatGPT in API"  />
 <br>
 <em>We recreated the ChatGPT persona!</em></p>
 </blockquote>
@@ -178,24 +178,24 @@ A machine learning paradigm that improves a model based on how well it performs 
 <p>In a Chess Playing task, the reward metric is defined as how successful the AI model is at winning games. If the model is losing or making poor moves it will apply updates to adjust the play strategy. This simple concept of reinforcement learning provides models with a specific goal: <strong>win chess games</strong>. Then it can play over and over tuning iteratively through billions of strategies until it arrives at a perfect play style winning all its games.</p>
 <p>The problem with Language Models is that the reward metric isn&rsquo;t as easily defined. In Chess we could clearly grade the quality of the model based on if it was winning. With Conversation in Natural Language, there is no clear quantiative metric to track quality. [^] This is in contrast to the model&rsquo;s pre-training phase. In pre-training the model&rsquo;s task and reward was if it could correctly predict the next word. That task is great at making the model a document auto completer, but it doesn&rsquo;t make it good at conversation. For example, look at this raw version of the GPT model. It has no concept of conversation. When we ask a question it fails to understand our human intent.</p>
 <blockquote>
-<p><img loading="lazy" src="/llm-persona-assets/rlhf/norlhf//gpt3-norlhf.png" alt="GPT 3 No RLHF"  />
+<p><img loading="lazy" src="/much-ado-about-everything/llm-persona-assets/rlhf/norlhf//gpt3-norlhf.png" alt="GPT 3 No RLHF"  />
 <br>
 <em>GPT-3 without RLHF fails to converse with user</em></p>
 </blockquote>
 <p>This uneditied model just does the job it was pre-trained to do, accurately complete documents. It doesn&rsquo;t behave at all like ChatGPT and has no persona. Let&rsquo;s see what happens if we ask about it&rsquo;s persona.</p>
 <blockquote>
-<p><img loading="lazy" src="/llm-persona-assets/rlhf/norlhf/gpt3-whoareyou.png" alt="GPT 3 No Persona"  />
+<p><img loading="lazy" src="/much-ado-about-everything/llm-persona-assets/rlhf/norlhf/gpt3-whoareyou.png" alt="GPT 3 No Persona"  />
 <br>
 <em>GPT without RLHF doesn&rsquo;t seem to understand the question</em></p>
 </blockquote>
 <p>Again raw GPT-3 fails to answer the question and just continues an auto-complete of the user prompt.</p>
 <p>We can use simple prompt engineering to get the model to actually try and answer our question. We do this by setting up a question, answer document for it to complete.</p>
 <blockquote>
-<p><img loading="lazy" src="/llm-persona-assets/rlhf/norlhf/gpt3-sarah.png" alt="GPT3 Sarah"  />
+<p><img loading="lazy" src="/much-ado-about-everything/llm-persona-assets/rlhf/norlhf/gpt3-sarah.png" alt="GPT3 Sarah"  />
 <br>
-<img loading="lazy" src="/llm-persona-assets/rlhf/norlhf/gpt3-kiersten.png" alt="GPT3 Kiersten"  />
+<img loading="lazy" src="/much-ado-about-everything/llm-persona-assets/rlhf/norlhf/gpt3-kiersten.png" alt="GPT3 Kiersten"  />
 <br>
-<img loading="lazy" src="/llm-persona-assets/rlhf/norlhf/gpt3-mike.png" alt="GPT3 Mike"  />
+<img loading="lazy" src="/much-ado-about-everything/llm-persona-assets/rlhf/norlhf/gpt3-mike.png" alt="GPT3 Mike"  />
 <br>
 <em>GPT 3 randomly generates a persona with asked</em></p>
 </blockquote>
