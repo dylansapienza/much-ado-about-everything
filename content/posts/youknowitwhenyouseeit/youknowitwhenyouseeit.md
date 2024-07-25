@@ -1,7 +1,7 @@
 +++
 title = 'You Know It When You See It: Knowing Without Knowing'
 date = 2024-07-24T21:48:13-04:00
-draft = true
+draft = false
 +++
 
 ### An Example (Recall):
