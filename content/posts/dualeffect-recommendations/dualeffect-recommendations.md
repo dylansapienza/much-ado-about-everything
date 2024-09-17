@@ -1,7 +1,7 @@
 +++
 title = 'Who Is Reinforcing Who?: Recommendation Algorithms'
 date = 2024-09-16T19:33:58-04:00
-draft = true
+draft = false
 +++
 
 Recommendation Algorithms determine what content we see next on many social media platforms. These algorithms have risen to take the place of the previous method, where posts were sorted by newest to oldest. Algorithmic sorting prevades nearly all our social media apps. Instagram, TikTok, Youtube, X, and even LinkedIn, have all transistioned over to this new "For You" type experience. Not by mistake, social media companies adopt recommendation algorithms because of how effective they are at keeping users on app. Freshness sorting relies on randomness to hope that the sequence of content is high quality. You could happen to logon where the last ten posts were all horribly boring, in which case you'd quit the app almost immediately. However, the app instead can harvest the best content for you and present it for you at the top of your feed. This means you have a curated stream of exactly the type of content you like.
