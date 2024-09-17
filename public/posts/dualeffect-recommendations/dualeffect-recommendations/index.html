@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Who Is Reinforcing Who?: Recommendation Algorithms | Much Ado About Everything</title>
+<meta name="keywords" content="">
+<meta name="description" content="Recommendation Algorithms determine what content we see next on many social media platforms. These algorithms have risen to take the place of the previous method, where posts were sorted by newest to oldest. Algorithmic sorting prevades nearly all our social media apps. Instagram, TikTok, Youtube, X, and even LinkedIn, have all transistioned over to this new &ldquo;For You&rdquo; type experience. Not by mistake, social media companies adopt recommendation algorithms because of how effective they are at keeping users on app.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/dualeffect-recommendations/dualeffect-recommendations/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/dualeffect-recommendations/dualeffect-recommendations/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Much Ado About Everything (Alt + H)">Much Ado About Everything</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Who Is Reinforcing Who?: Recommendation Algorithms
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h1>
+    <div class="post-meta"><span title='2024-09-16 19:33:58 -0400 EDT'>September 16, 2024</span>&nbsp;·&nbsp;8 min
+
+</div>
+  </header> 
+  <div class="post-content"><p>Recommendation Algorithms determine what content we see next on many social media platforms. These algorithms have risen to take the place of the previous method, where posts were sorted by newest to oldest. Algorithmic sorting prevades nearly all our social media apps. Instagram, TikTok, Youtube, X, and even LinkedIn, have all transistioned over to this new &ldquo;For You&rdquo; type experience. Not by mistake, social media companies adopt recommendation algorithms because of how effective they are at keeping users on app. Freshness sorting relies on randomness to hope that the sequence of content is high quality. You could happen to logon where the last ten posts were all horribly boring, in which case you&rsquo;d quit the app almost immediately. However, the app instead can harvest the best content for you and present it for you at the top of your feed. This means you have a curated stream of exactly the type of content you like.</p>
+<h2 id="how-do-recommendation-algorithms-work">How Do Recommendation Algorithms Work?<a hidden class="anchor" aria-hidden="true" href="#how-do-recommendation-algorithms-work">#</a></h2>
+<p>Recommending content is really hard. Think about what it takes to recommend a movie to a friend. It requires me to know a lot about you and a lot about movies. When I say &lsquo;a lot&rsquo; I mean &lsquo;a lot&rsquo;. Are you an analytical person? Do you like drama? Are you into older movies? Foreign Films? Do you like long movies? Then I need to know a lot of movies because the more movies I know the more likely I can find one that fits your criteria. This, to me, essentializes two of the core problems of recommending: 1. Relevant Data Collection and 2. A Robust Content Collection. If I know everything there is to know about your movie watching habits, but I don&rsquo;t know many movies I won&rsquo;t be a good recommender. And vice versa, if I am a movie buff and know nothing about you, I won&rsquo;t give you anything good.</p>
+<p>Social media recommendation algorithms therefore must have some way to deal with these challenges.</p>
+<blockquote>
+<h3 id="two-requirements-for-recommendations">Two Requirements for Recommendations:<a hidden class="anchor" aria-hidden="true" href="#two-requirements-for-recommendations">#</a></h3>
+<ol>
+<li>
+<p><strong>Knowing You:</strong><br>
+<em>An understanding of the user&rsquo;s preferences</em></p>
+</li>
+<li>
+<p><strong>Having Content:</strong><br>
+<em>A library of content</em></p>
+</li>
+</ol>
+</blockquote>
+<h2 id="how-social-media-knows-you">How Social Media Knows You:<a hidden class="anchor" aria-hidden="true" href="#how-social-media-knows-you">#</a></h2>
+<p>Social media algorithms solve the first requirement by collecting informatiom about you. This includes basic information like age, gender and location. It also includes your interaction history on the application: what content you like, view, search for and click on. This interaction history ends up telling a significantly richer story about your preferences than just your basic peronal information. For instance, your viewing recipe videos tell platforms you likely enjoy food and cook. Certain specific political content you interact may tell platforms your political views. Beyond even interest segments, certain unique pockets of overlap may begin to form a deeply rich profile of your preferences. The more you use the platform the more data it collects on you, the better it knows you.</p>
+<blockquote>
+<p>Cold Start Problem:<br>
+When joining a platform for the first time recommendations are made with little data about who you are. This challenge is known as the Cold Start problem. Applications often have an onboarding experience where you can select certain interests like Sports, Cooking, or Programming. These help the platform know where to start.</p>
+</blockquote>
+<p>It is clear that Social Media platforms can collect an inordinate amount of data on us. An amount of data which moves beyond any intuition we could have or use in normal human recommending. It is almost like recommending movies feels like mapping onto a three dimensional field, where what social media platforms are doing is mapping onto a million dimensional field.</p>
+<h2 id="solving-content-collection">Solving Content Collection:<a hidden class="anchor" aria-hidden="true" href="#solving-content-collection">#</a></h2>
+<p>The knowledge of user preferences is only useful if you have the right content to fit those preferences. For instance, if I predict you will really enjoy vegan cat cooking videos, but I don&rsquo;t have any, my prediction is useless. Early social media only would show you content which was created by your friends. This meant that the platforms were severely supply constrained for content. This is when the move toward discover pages, for you pages and the &ldquo;social&rdquo; in social media became lost. Suddenly algorithms didn&rsquo;t just have to pull from the 20 posts your friends uploaded that day, it could pull from the billions of clips. So the chances are the content that you wanted I could find. There would be a need to label this data and learn which features each video had. Social media platforms monitor which users interact with which videos. Then they begin to build an understanding of which kinds of people like the content. If no one watches it, then it will not be recommended. If only men who like car videos watch it then it will be shown to only those users. This process uses the preferences of people like you to predict what you might like.</p>
+<h2 id="reinforcement-learning">Reinforcement Learning:<a hidden class="anchor" aria-hidden="true" href="#reinforcement-learning">#</a></h2>
+<p>The algorithm which does the recommending has one goal, to increase your app screen time. It does not care about how much you enjoy the content, or how long you watch a video, it only cares about how long you are on the application. It uses this quanitative metric to assess it&rsquo;s quality. Many different iterations of algorithms are tested and the best performing algorithm ends up on the platform. These reinforcement learning algorithms are essentially massive mathematical equations which intake all the data about you, the content collection, other user&rsquo;s behaviors then they compute content which you&rsquo;ll likely view. These reinforcement learning algorithms are &ldquo;unsupervised&rdquo; in that no one person knows exactly how they work. They are essentially black boxes which have free range to use any data and draw any connections necessary to render good recommendations. They have no understanding of concepts or anything a human would think about when recommending. Adding rules like that would only limit the algorithm&rsquo;s ability to be creative and find rules human&rsquo;s couldn&rsquo;t have anticipated.</p>
+<h2 id="the-dual-effect-of-recommendation-algorithms">The Dual Effect of Recommendation Algorithms:<a hidden class="anchor" aria-hidden="true" href="#the-dual-effect-of-recommendation-algorithms">#</a></h2>
+<p>Recommendation algorithms essentially collect data about you, build a labeled data collect and serve you the content you are likely to watch. Most tech savvy people use these platforms are aware of this dynamic. The more they use the platform the better the recommendations will be. The more it will begin to discover the type of content I like to watch. You often hear people who talk about they discovered their passion for pimple popping videos or hydraulic press videos. It is talked about as if the algorithms are just getting better at anticipating us. As if we are unmoving in our preferences and the model is getting reinforced to learn us. Instead, I think we need to begin to see this relationship as much more interactive. I believe as much as the recommendations are reinforced by us, we are simultaneously being conditioned by them to like the type of content they have. We are being programmed into being the type of people who like watching content for long periods of time, scrolling and swiping. A recommendation algorithm which is a black box can learn the rules to curate to exactly what you&rsquo;d want to keep you on. Or it can learn what content it needs to show you, in which order, to begin to slowly shape you into being a person who likes the content it has to share. The content which is much more sharable and bingable. If you come to YouTube with an interest in only long for conversations it won&rsquo;t be long until the algorithm begins serving you shorter and snapper content. We often think that these platforms are just finding the content we were always looking for, but instead I think what it is doing is far more dangerous than just showing us content we can&rsquo;t look away from.</p>
+<p>It is fundamentally changing each one of us to become the perfect viewer. To no longer want to spend time creating, but to spend more and more of our time consuming. Your hobbies only get in the way, how about you throw those away and just watch videos as your new hobby, I&rsquo;m sure you&rsquo;ll enjoy that just as much. And suppose the algorithm realizes that anxious, depressed, and addicted people are way easier to show tons of content to. Then it will begin to show you the content which does all those things. When we talk about black boxes and reinforcement learning for recommendations we are saying, get the watch time up by all means necessary. Worse of all we have no idea even what is happening. Surely there is some work done to isolate algorithm features, but as neural networks get deeper and larger, it becomes increasingly impossible to understand. All we know is that our population has become increasingly and alarmingly anxious, isolated, depressed, addicted, mentally sick. Attention disorders seem dime a dozen and focus has become increasingly rare. When we use AI algorithms like this we have to admit we are engaging with an alien intelligence. One in which has no morality, no defined methods, no common sense, except to follow its goal to maximize watch time, by any means necessary. What else do you need to know? Delete these apps, you seriously have no idea what you are up against every time you open them.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="http://localhost:1313/">Much Ado About Everything</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

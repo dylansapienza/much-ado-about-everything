@@ -6,8 +6,15 @@
     <description>Recent content on Much Ado About Everything</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Aug 2024 18:08:09 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 19:33:58 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who Is Reinforcing Who?: Recommendation Algorithms</title>
+      <link>http://localhost:1313/posts/dualeffect-recommendations/dualeffect-recommendations/</link>
+      <pubDate>Mon, 16 Sep 2024 19:33:58 -0400</pubDate>
+      <guid>http://localhost:1313/posts/dualeffect-recommendations/dualeffect-recommendations/</guid>
+      <description>Recommendation Algorithms determine what content we see next on many social media platforms. These algorithms have risen to take the place of the previous method, where posts were sorted by newest to oldest. Algorithmic sorting prevades nearly all our social media apps. Instagram, TikTok, Youtube, X, and even LinkedIn, have all transistioned over to this new &amp;ldquo;For You&amp;rdquo; type experience. Not by mistake, social media companies adopt recommendation algorithms because of how effective they are at keeping users on app.</description>
+    </item>
     <item>
       <title>What Is Going On With Short Form Video?</title>
       <link>http://localhost:1313/posts/shortformvideo/shortformvideo/</link>
@@ -21,13 +28,6 @@
       <pubDate>Wed, 24 Jul 2024 21:48:13 -0400</pubDate>
       <guid>http://localhost:1313/posts/youknowitwhenyouseeit/youknowitwhenyouseeit/</guid>
       <description>An Example (Recall): You are at a bar with some friends. You are talking about movies and you&amp;rsquo;re trying to remember that one movie from the 1960s about a court case. You feel like you really know it, but you just can&amp;rsquo;t find it in your head. You are also struggling to recall characters and other ways to signal to others what movie you are seaching for. You snap your fingers, look up the the ceiling, let out some &amp;ldquo;umms and ahhs&amp;rdquo; as you feel yourself getting frustrated.</description>
-    </item>
-    <item>
-      <title>What is Injury?</title>
-      <link>http://localhost:1313/posts/injury/injury/</link>
-      <pubDate>Wed, 01 May 2024 09:29:26 -0400</pubDate>
-      <guid>http://localhost:1313/posts/injury/injury/</guid>
-      <description>What is Injury? </description>
     </item>
     <item>
       <title>Large Language Models and The Utility of Personas</title>

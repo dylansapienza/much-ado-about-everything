@@ -6,14 +6,21 @@
     <description>Recent content in Posts on Much Ado About Everything</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Aug 2024 18:08:09 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 19:33:58 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who Is Reinforcing Who?: Recommendation Algorithms</title>
+      <link>http://localhost:1313/posts/dualeffect-recommendations/dualeffect-recommendations/</link>
+      <pubDate>Mon, 16 Sep 2024 19:33:58 -0400</pubDate>
+      <guid>http://localhost:1313/posts/dualeffect-recommendations/dualeffect-recommendations/</guid>
+      <description>Recommendation Algorithms determine what content we see next on many social media platforms. These algorithms have risen to take the place of the previous method, where posts were sorted by newest to oldest. Algorithmic sorting prevades nearly all our social media apps. Instagram, TikTok, Youtube, X, and even LinkedIn, have all transistioned over to this new &amp;ldquo;For You&amp;rdquo; type experience. Not by mistake, social media companies adopt recommendation algorithms because of how effective they are at keeping users on app.</description>
+    </item>
     <item>
       <title>What Is Going On With Short Form Video?</title>
       <link>http://localhost:1313/posts/shortformvideo/shortformvideo/</link>
       <pubDate>Mon, 05 Aug 2024 18:08:09 -0400</pubDate>
       <guid>http://localhost:1313/posts/shortformvideo/shortformvideo/</guid>
-      <description></description>
+      <description>Entertainment is expressed through many different mediums. One of the mediums that I want to focus on today is algorithmically recommended short form video. I will break down this medium so we have a sturdy definition before continuing. Starting with short form video, I will define this as content which is less than 5 minutes in length. Although the upperbound is set at 5 minutes, typical clips may be as short as 5 seconds.</description>
     </item>
     <item>
       <title>You Know It When You See It: Knowing Without Knowing</title>
