@@ -6,8 +6,24 @@
     <description>Recent content on Much Ado About Everything</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Sep 2024 19:33:58 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2024 10:34:30 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are We Outsourcing Reasoning to AI?</title>
+      <link>http://localhost:1313/posts/outsourcing-reasoning-to-ai/</link>
+      <pubDate>Thu, 26 Dec 2024 10:34:30 -0500</pubDate>
+      <guid>http://localhost:1313/posts/outsourcing-reasoning-to-ai/</guid>
+      <description>This article has been updated as of December 26th. It was originally published on November 23rd, 2023.
+1. Outsourcing Human Capabilities In Nicholas Carr’s book, The Shallows, he advances the idea that modern technologies like the internet, hard drives, and other software innovations can negatively impact natural human abilities. To motivate this view to those who haven’t read his book I will sketch out a general form of his argument. Then I will show a particular cases as examples to help align our intuitions.</description>
+    </item>
+    <item>
+      <title>Some thoughts on AI Doomerism: Digital Labor</title>
+      <link>http://localhost:1313/posts/digitallabor/</link>
+      <pubDate>Mon, 23 Dec 2024 16:55:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/digitallabor/</guid>
+      <description>Most Americans are concerned about Artifical Intelligence. They often cite labor replacement, cyber security, geopolitical risks, information integrity, privacy and creepiness as reasons for their concern. People who are extremely concerned with the impacts of AI on our society are AI Doomers. Doomerism in AI can come in many forms, but for this piece I want to discuss one of the most frequently cited scenarios: Labor Replacement.
+The State of Discourse on Labor Replacement Labor replacement is a way of formalizing the concern that AI systems will take current human jobs.</description>
+    </item>
     <item>
       <title>Who Is Reinforcing Who?: Recommendation Algorithms</title>
       <link>http://localhost:1313/posts/dualeffect-recommendations/dualeffect-recommendations/</link>
