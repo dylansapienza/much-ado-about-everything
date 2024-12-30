@@ -20,9 +20,8 @@ The pattern in the numbers above is obvious. For each consecutive number we add 
 
 Continuing the pattern is obvious, we proceed by adding 2 to the previous number until we get to the 20th value. Finding the general function is still easy but provides more theoretical richness. For each number we take the previous number and add 2. A general function which can explain the pattern is F1: y = 2x where x is the position of the number you’d want to find. Now with this general function we can find the 20th value without following the labor of counting each number prior. 2 \* 20(th value) = 40. Aside from the mathematical power granted by this less computationally intensive process, we can get an insight into what likely governs the creation of these numbers.
 
-> Sidenote: Occam’s Razor and Parsimony
-
-`Suppose someone tried to come up with the general function for P1 and they came up with F2: y = 4x - 2x. This equation also maps the pattern in P1 which reveals that multiple functions could exist, however mathematics allows us to simple reduce equations such that we can see their really equivalent. This works well in the logic of mathematics, but reduction and other plausible explanations becomes much more complicated with other patterns.`
+> Sidenote: Occam’s Razor and Parsimony  
+> Suppose someone tried to come up with the general function for P1 and they came up with F2: y = 4x - 2x. This equation also maps the pattern in P1 which reveals that multiple functions could exist, however mathematics allows us to simple reduce equations such that we can see their really equivalent. This works well in the logic of mathematics, but reduction and other plausible explanations becomes much more complicated with other patterns.`
 
 ## 2. Patterns in Nature
 
