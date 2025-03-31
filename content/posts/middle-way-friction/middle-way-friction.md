@@ -39,7 +39,7 @@ I contend that making things easier to do is actually not always preferable. Ins
 
 ![Middle Way of Friction Chart](/much-ado-about-everything/middle-way-assets/themiddlewaychart.png)
 
-At first reducing friction allows significant value increases until it reaches a tipping point. An apex of maximum point of value. After removing friction, surprisingly, reduces value.
+At first reducing friction allows significant value increases until it reaches a tipping point. An apex of maximum value. After which removing friction, surprisingly, reduces value.
 
 ## Why Does Friction and Value Work This Way?
 
